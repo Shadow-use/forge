@@ -22,7 +22,7 @@
         android:textColor="#D4AF37"
         android:textAlignment="center"
         android:fontFamily="serif"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/btnSave"
@@ -30,6 +30,16 @@
         android:layout_height="wrap_content"
         android:text="ЗБЕРЕГТИ В ГАЛЕРЕЮ"
         android:backgroundTint="#D4AF37"
-        android:textColor="#000" />
+        android:textColor="#000"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnPublish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ОПУБЛІКУВАТИ НА ВІВТАР"
+        android:backgroundTint="#1A1A1A"
+        android:textColor="#D4AF37"
+        android:enabled="false" />
 
 </LinearLayout>

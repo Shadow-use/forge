@@ -1,14 +1,15 @@
 ### Logical Map (Auto-generated)
-- HexEncoder.kt: Atomic utility for converting strings to HEX representation and back.
-Converting raw string to a HEX-formatted string.
-Decoding a HEX string back to original UTF-8 text.
-- PreviewActivity.kt: UI for previewing and finalizing the artifact forging process.
+- HexEncoder.kt: Precise HEX to UTF-8 conversion for Cyrillic support.
+- PreviewActivity.kt: UI for previewing, local saving, and remote publishing of forged artifacts.
 - InputActivity.kt: Capturing artifact text and passing it to the next stage of the forge.
 - Logger.kt: Atomic utility for writing application logs and errors to a physical file.
 Appending log message to forge_logs.txt
 - ArtifactDrawer.kt: Advanced image manipulation, focusing on aesthetic hex placement.
 Drawing hex text to fill the visual void between rings.
-- MainActivity.kt: Entry point with global crash interception and redirection to InputActivity.
-Catching all unhandled exceptions and writing them to forge_logs.txt.
+- GalleryActivity.kt: Scanning local storage and displaying forged artifacts in a list.
+- MainActivity.kt: Main navigation hub and global crash logging.
+- GitHubService.kt: Atomic utility to upload images to GitHub repository using REST API.
+Uploading a file by converting it to Base64 and sending a PUT request.
+- ArtifactAdapter.kt: Adapting artifact files to UI with proper UTF-8 metadata extraction.
 - FileForge.kt: Atomic utility for saving Bitmaps and injecting raw HEX data at the end of the file (EOF).
 Saving the artifact image and appending the secret HEX metadata.

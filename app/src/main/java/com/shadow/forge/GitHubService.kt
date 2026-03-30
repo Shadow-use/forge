@@ -11,7 +11,8 @@ import java.io.IOException
 
 object GitHubService {
 
-    private const val GITHUB_TOKEN = ""
+    private const val GITHUB_TOKEN = BuildConfig.GH_TOKEN
+
     private const val REPO_OWNER = "Shadow-use"
     private const val REPO_NAME = "forge-assets"
 

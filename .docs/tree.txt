@@ -1,0 +1,31 @@
+.
+├── app
+│   ├── build.gradle.kts
+│   ├── debug.keystore
+│   └── src
+│       └── main
+│           ├── AndroidManifest.xml
+│           ├── java
+│           │   └── com
+│           │       └── shadow
+│           │           └── forge
+│           │               ├── ArtifactDrawer.kt
+│           │               ├── HexEncoder.kt
+│           │               ├── InputActivity.kt
+│           │               ├── Logger.kt
+│           │               ├── MainActivity.kt
+│           │               └── PreviewActivity.kt
+│           └── res
+│               ├── layout
+│               │   ├── activity_input.xml
+│               │   ├── activity_main.xml
+│               │   └── activity_preview.xml
+│               └── values
+├── build.gradle.kts
+├── gradle
+│   └── wrapper
+│       └── gradle-wrapper.properties
+├── gradle.properties
+└── settings.gradle.kts
+
+13 directories, 16 files

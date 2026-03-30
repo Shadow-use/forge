@@ -1,0 +1,12 @@
+### Logical Map (Auto-generated)
+- HexEncoder.kt: Atomic utility for converting strings to HEX representation and back.
+Converting raw string to a HEX-formatted string.
+Decoding a HEX string back to original UTF-8 text.
+- PreviewActivity.kt: UI for previewing the generated artifact and triggering the final file save.
+- InputActivity.kt: Capturing artifact text and passing it to the next stage of the forge.
+- Logger.kt: Atomic utility for writing application logs and errors to a physical file.
+Appending log message to forge_logs.txt
+- ArtifactDrawer.kt: Handling image manipulation, drawing text on a circular path, and final bitmap processing.
+Drawing hex text between the golden rings of the template.
+- MainActivity.kt: Entry point with global crash interception and redirection to InputActivity.
+Catching all unhandled exceptions and writing them to forge_logs.txt.

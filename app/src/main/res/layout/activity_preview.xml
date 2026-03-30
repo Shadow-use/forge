@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#050505"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivPreview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D4AF37"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ЗБЕРЕГТИ В ГАЛЕРЕЮ"
+        android:backgroundTint="#D4AF37"
+        android:textColor="#000" />
+
+</LinearLayout>
